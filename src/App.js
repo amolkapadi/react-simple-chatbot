@@ -1,10 +1,9 @@
 import './App.css';
 import SimpleForm from './SimpleForm';
-
 function App() {
   return (
    <>
-    <SimpleForm />
+      <SimpleForm />
    </>
   );
 }
