@@ -15,17 +15,8 @@
     background: #00365F !important;
     color: white !important;
 }
-
-.btn-primary-delete{
-    background-color: red;
-    color: white;
-    border-radius: 50px;
-}
-.btn-primary-team {
-    background-color: #00365F;
-    color: white;
-    border-radius: 50px;
-
+.cRmLCo{
+    background: #00365F!important;
 }
 .success-container{
     background: white;
