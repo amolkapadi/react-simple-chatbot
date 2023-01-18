@@ -1,3 +1,5 @@
+import FetchData from "./FetchData";
+
 const Data = [
   {
     id: '1',
@@ -38,7 +40,7 @@ const Data = [
     options: [
       { value: 'name1', label: '1. The Great Effect ', trigger: '8' },
       { value: 'name2', label: '2. Avocado', trigger: 'update-yes' },
-      { value: 'name3', label: '3.Avangers', trigger: 'update-yes' },
+      { value: 'name3', label: '3. Avangers', trigger: 'update-yes' },
     ],
   },
   {
@@ -84,16 +86,27 @@ const Data = [
     ],
   },
   {
-    id: '11',
-    component: (
-      <div className='container-fluid success-container'>
-        <div className='main-chat'>
-          <h1>Congratulations your meeting is created successfully</h1>
-          <p className='mt-5'>Meeting details will appear here</p>
-        </div>
+    id:'11',
+    component:(
+      <div className='container-fluid '>
+        
+          <FetchData />
+
       </div>
     ),
-    end: true
-  }
+    end: true 
+  },
+  // {
+  //   id: '12',
+  //   component: (
+  //     <div className='container-fluid success-container'>
+  //       <div className='main-chat'>
+  //         <h1>Congratulations your meeting is created successfully</h1>
+  //         <p className='mt-5'>Meeting details will appear here</p>
+  //       </div>
+  //     </div>
+  //   ),
+  //   end: true
+  // }
 ]
 export default Data;

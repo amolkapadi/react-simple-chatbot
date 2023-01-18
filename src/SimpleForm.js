@@ -9,13 +9,16 @@ class SimpleForm extends Component {
   
   render() {
     return (
-      <ChatBot 
+      <>
+        <ChatBot 
         headerTitle="One-solution Chatbot"
+        recognitionEnable={true}
         width="100%"
         height="99vh"
         steps={Data}
-        
       />
+       
+      </>
     );
   }
 }
